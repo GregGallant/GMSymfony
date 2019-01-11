@@ -2,22 +2,6 @@ index:
     path: /
     controller: App\Controller\DefaultController::index
 
-struct:
-    path: /struct
-    controller: App\Controller\DefaultController::struct
-
-form:
-    path: /forms
-    controller: App\Controller\DefaultController::formtest
-
-auth:
-    path: /login 
-    controller: App\Controller\DefaultController::authtest
-
-cache:
-    path: /cacheconfig
-    controller: App\Controller\DefaultController::cachetest
-
-nuxt:
-    path: /nuxt
-    controller: App\Controller\DefaultController::nuxttest
+docs:
+    path: /docs
+    controller: App\Controller\DefaultController::docs
